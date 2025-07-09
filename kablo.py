@@ -56,8 +56,6 @@ def get_canli_tv_m3u():
                 
                 group = categories[0].get('Name', 'Genel') if categories else 'Genel'
                 
-                if group == "Bilgilendirme":
-                    continue
 
                 tvg_id = str(kanal_index)
 
